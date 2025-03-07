@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (contains sensitive data like API keys)
+.env
+
+# Build files (for React frontend)
+build/
+dist/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Docker-related files
+docker-compose.override.yml
+
+# Ignore local development database (if using SQLite)
+*.sqlite
+*.sqlite3
